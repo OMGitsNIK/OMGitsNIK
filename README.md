@@ -46,7 +46,7 @@ You can click the Preview link to take a look at your changes.
 [![trophy](https://github-profile-trophy.vercel.app/?username=OMGitsNIK&theme=gruvbox)]()
 
 [![](https://readme-typing-svg.herokuapp.com?color=FFC300&lines=Thanks+for+Visiting+my+GitHub+Profile)]() </br>
-![](https://komarev.com/ghpvc/?username=VishwaGauravIn&label=Profile+Views&color=yellow)
+![](https://komarev.com/ghpvc/?username=OMGitsNIK&label=Profile+Views&color=yellow)
 
 
 <p align="center">
