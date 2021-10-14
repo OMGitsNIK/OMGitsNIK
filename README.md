@@ -43,7 +43,13 @@ You can click the Preview link to take a look at your changes.
 # Current GitHub Stats
 <img src="https://github-readme-stats.vercel.app/api?username=omgitsnik&show_icons=true&hide_border=true&theme=gruvbox" >
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=OMGitsNIK&theme=gruvbox)]()
+
+[![](https://readme-typing-svg.herokuapp.com?color=FFC300&lines=Thanks+for+Visiting+my+GitHub+Profile)]() </br>
+![](https://komarev.com/ghpvc/?username=VishwaGauravIn&label=Profile+Views&color=yellow)
 
 
-
+<p align="center">
+<img src="https://github.com/OMGitsNIK/OMGitsNIK/blob/output/github-contribution-grid-snake.svg">
+</p>
 
