@@ -39,3 +39,11 @@ You can click the Preview link to take a look at your changes.
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+# Current GitHub Stats
+<img src="https://github-readme-stats.vercel.app/api?username=omgitsnik&show_icons=true&hide_border=true&theme=gruvbox" >
+
+
+
+
+
