@@ -18,7 +18,7 @@ You can click the Preview link to take a look at your changes.
 </p>
 
 <h3 align="center"> 🏆 Wannbe Hecker </br>
- ✨ Learning Something About Everything And Everything About Someting ✨
+ ✨ Learning Something About Everything And Everything About Something ✨
 </h3>
 
 
