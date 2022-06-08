@@ -9,7 +9,7 @@ OMGitsNIK/OMGitsNIK is a ✨ special ✨ repository because its `README.md` (thi
 You can click the Preview link to take a look at your changes.
 --->
 
-<h1 align="center"> Hi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="300px">, I'm Nikhil Rao </br> 
+<h1 align="center"> Hi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35px">, I'm Nikhil Rao </br> 
 </h1>
 <p align="center">
 <a href="https://twitter.com/AlphaQ12345?s=03"><img alt="" src="https://img.shields.io/badge/@NIKHIL_RAO-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" style="vertical-align:center" /></a>
