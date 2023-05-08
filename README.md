@@ -48,7 +48,7 @@ You can click the Preview link to take a look at your changes.
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 # Current GitHub Stats
-<img src="https://github-readme-stats.vercel.app/api?username=omgitsnik&show_icons=true&hide_border=true&theme=gruvbox" >
+<img src="https://github-readme-stats.vercel.app/api?username=OMGitsNIK&show_icons=true&hide_border=true&theme=gruvbox" >
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=OMGitsNIK&theme=gruvbox)]()
 
