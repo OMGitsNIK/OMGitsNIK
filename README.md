@@ -76,7 +76,7 @@ You can click the Preview link to take a look at your changes.
 
 ###
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula)
 
 ###
 
