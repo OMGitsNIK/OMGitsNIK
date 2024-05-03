@@ -55,10 +55,30 @@ You can click the Preview link to take a look at your changes.
   <img src="https://streak-stats.demolab.com?user=omgitsnik&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=omgitsnik&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
-
+<!---
 <img src="https://github-readme-stats.vercel.app/api?username=omgitsnik&show_icons=true&hide_border=true&theme=gruvbox" >
-
+--->
+<!---
 [![trophy](https://github-profile-trophy.vercel.app/?username=OMGitsNIK&theme=gruvbox)]()
+--->
+
+![](https://github-profile-trophy.vercel.app/?username=omgitsnik&theme=dracula&no-frame=false&no-bg=true&margin-w=4)
+
+<div align="center">
+  <img src="https://profile-counter.glitch.me/omgitsnik/count.svg?"  />
+</div>
+
+###
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/omgitsnik/omgitsnik/output/snake.svg" alt="Snake animation" />
+
+###
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
+
+###
 
 [![](https://readme-typing-svg.herokuapp.com?color=FFC300&lines=Thanks+for+Visiting+my+GitHub+Profile)]() </br>
 ![](https://komarev.com/ghpvc/?username=OMGitsNIK&label=Profile+Views&color=yellow)
