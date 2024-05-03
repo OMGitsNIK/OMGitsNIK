@@ -63,16 +63,16 @@ You can click the Preview link to take a look at your changes.
 --->
 
 ![](https://github-profile-trophy.vercel.app/?username=omgitsnik&theme=dracula&no-frame=false&no-bg=true&margin-w=4)
-
+<!---
 <div align="center">
   <img src="https://profile-counter.glitch.me/omgitsnik/count.svg?"  />
 </div>
-
+--->
 ###
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/omgitsnik/omgitsnik/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/OMGitsNIK/OMGitsNIK/output/snake.svg" alt="Snake animation" />
 
 ###
 ### ✍️ Random Dev Quote
