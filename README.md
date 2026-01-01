@@ -17,7 +17,7 @@ You can click the Preview link to take a look at your changes.
 <a href="https://www.instagram.com/ohmygoditsnikhil/?hl=en"><img alt="" src="https://img.shields.io/badge/ohmygoditsnikhil-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" style="vertical-align:center"/></a>
 </p>
 
-<h3 align="center"> 🏆 Wannbe Hecker </br>
+<h3 align="center"> 
  ✨ Learning Something About Everything And Everything About Something ✨
 </h3>
 
