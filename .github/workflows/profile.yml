@@ -1,0 +1,48 @@
+name: refresh profile terminal
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"   # twice a day
+  workflow_dispatch:            # run manually from the Actions tab
+  push:
+    paths:
+      - "scripts/generate_svg.py"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate terminal.svg with live stats
+        env:
+          GH_USER: OMGitsNIK
+          # GITHUB_TOKEN is provided automatically and is enough for public stats.
+          # For private-contribution counts, add a PAT as the GH_STATS_TOKEN secret.
+          GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          OUT_PATH: assets/terminal.svg
+        run: python scripts/generate_svg.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain assets/terminal.svg)" ]; then
+            git add assets/terminal.svg
+            git commit -m "chore: refresh terminal stats [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
