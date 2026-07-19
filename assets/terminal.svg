@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 692" width="1200" height="692" fill="none" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" role="img" aria-label="Nikhil Rao — terminal profile">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0e1626"/><stop offset="100%" stop-color="#0a111e"/></linearGradient>
+    <radialGradient id="scrn" cx="50%" cy="30%" r="85%"><stop offset="0%" stop-color="#0b1220"/><stop offset="100%" stop-color="#070c16"/></radialGradient>
+    <clipPath id="win"><rect x="8" y="8" width="1184" height="668" rx="12"/></clipPath>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#00f5d4" stroke-opacity="0.03"/></pattern>
+    <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="3" height="1" fill="#000" opacity="0.16"/></pattern>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#00f5d4" stop-opacity="0"/><stop offset="50%" stop-color="#00f5d4" stop-opacity="0.05"/><stop offset="100%" stop-color="#00f5d4" stop-opacity="0"/></linearGradient>
+    <style>
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+      @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+      @keyframes beam  { 0%{transform:translateY(-60px)} 100%{transform:translateY(676px)} }
+      @keyframes flick { 0%,100%{opacity:.14} 96%{opacity:.14} 97%{opacity:.22} 98%{opacity:.14} }
+      .caret { animation:blink 1.1s step-end infinite; }
+      .pd    { animation:pulse 1.6s ease-in-out infinite; }
+      .beam  { animation:beam 5.5s linear infinite; }
+      .scan  { animation:flick 7s linear infinite; }
+    </style>
+  </defs>
+
+  <rect x="8" y="8" width="1184" height="668" rx="12" fill="url(#scrn)"/>
+  <g clip-path="url(#win)">
+    <rect x="8" y="8" width="1184" height="668" fill="url(#grid)"/>
+    <!-- title bar -->
+    <rect x="8" y="8" width="1184" height="42" fill="url(#bar)"/>
+    <line x1="8" y1="50" x2="1192" y2="50" stroke="#00f5d4" stroke-opacity="0.16"/>
+    <circle cx="34" cy="29" r="6" fill="#ff5f57" opacity="0.92"/>
+    <circle cx="56" cy="29" r="6" fill="#febc2e" opacity="0.92"/>
+    <circle cx="78" cy="29" r="6" fill="#28c840" opacity="0.92"/>
+    <text x="600" y="34" text-anchor="middle" font-size="14" letter-spacing="1" fill="#5b7089">nikhil@rao — ~/whoami — zsh</text>
+    <text x="1168" y="34" text-anchor="end" font-size="12.5" letter-spacing="1" fill="#334155">◉ session: <tspan class="pd" fill="#14f195">live</tspan></text>
+    <!-- moving scan beam -->
+    <rect class="beam" x="8" y="0" width="1184" height="60" fill="url(#beam)"/>
+    <!-- body -->
+        <text x="44" y="78" font-size="17.5" fill="#7c3aed">❯<tspan dx="12" fill="#e2e8f0">whoami</tspan></text>
+    <text x="44" y="103" font-size="16" fill="#94a3b8"><tspan fill="#00f5d4">nikhil rao</tspan> <tspan fill="#5b7089">—</tspan> blockchain <tspan fill="#5b7089">·</tspan> ai/ml <tspan fill="#5b7089">·</tspan> full-stack engineer</text>
+    <text x="44" y="143" font-size="17.5" fill="#7c3aed">❯<tspan dx="12" fill="#e2e8f0">cat bio.txt</tspan></text>
+    <text x="44" y="168" font-size="16" fill="#94a3b8">On-chain engineer. Flagship: <tspan fill="#f0abfc">MYRMEX</tspan> — parametric insurance on</text>
+    <text x="44" y="193" font-size="16" fill="#94a3b8">Solana (Rust + Anchor). <tspan fill="#00f5d4">YOLOv9 @ 92%</tspan> for marine research @ NIO.</text>
+    <text x="44" y="233" font-size="17.5" fill="#7c3aed">❯<tspan dx="12" fill="#e2e8f0">cat experience.log</tspan></text>
+    <text x="44" y="258" font-size="16" fill="#94a3b8"><tspan fill="#00f5d4">[now] </tspan>Associate Engineer <tspan fill="#5b7089">·</tspan> OneShield — P&amp;C SaaS <tspan fill="#5b7089">·</tspan> PL/SQL <tspan fill="#5b7089">·</tspan> +30% perf</text>
+    <text x="44" y="283" font-size="16" fill="#94a3b8"><tspan fill="#00f5d4">[2024]</tspan> SWE Intern <tspan fill="#5b7089">·</tspan> OneShield — policy module <tspan fill="#5b7089">·</tspan> 30+ auto tests</text>
+    <text x="44" y="308" font-size="16" fill="#94a3b8"><tspan fill="#00f5d4">[2023]</tspan> ML <tspan fill="#5b7089">·</tspan> Nat’l Institute of Oceanography — YOLOv9 <tspan fill="#5b7089">·</tspan> 5k+ imgs</text>
+    <text x="44" y="348" font-size="17.5" fill="#7c3aed">❯<tspan dx="12" fill="#e2e8f0">ls ~/stack</tspan></text>
+    <text x="44" y="373" font-size="16" fill="#94a3b8"><tspan fill="#00f5d4">solana  anchor  rust  python  pytorch  next.js  fastapi  pl/sql</tspan></text>
+    <text x="44" y="413" font-size="17.5" fill="#7c3aed">❯<tspan dx="12" fill="#e2e8f0">cat education.txt</tspan></text>
+    <text x="44" y="438" font-size="16" fill="#94a3b8">B.E. Computer Engineering <tspan fill="#5b7089">·</tspan> Honours AI/ML <tspan fill="#5b7089">·</tspan> Don Bosco <tspan fill="#5b7089">·</tspan> <tspan fill="#00f5d4">CGPA 8.82</tspan></text>
+    <text x="44" y="478" font-size="17.5" fill="#7c3aed">❯<tspan dx="12" fill="#e2e8f0">./status --now</tspan></text>
+    <circle class="pd" cx="52" cy="498" r="6" fill="#14f195"/><text x="68" y="503" font-size="16" fill="#14f195">OPEN TO OPPORTUNITIES <tspan fill="#5b7089">·</tspan> <tspan fill="#94a3b8">Margao, Goa · IN</tspan></text>
+    <text x="44" y="543" font-size="17.5" fill="#7c3aed">❯<tspan dx="12" fill="#e2e8f0">contact --list</tspan></text>
+    <text x="44" y="568" font-size="16" fill="#94a3b8">mail  <tspan fill="#00f5d4">raonik1003@gmail.com</tspan><tspan x="560">gh</tspan>  <tspan fill="#00f5d4">github.com/OMGitsNIK</tspan></text>
+    <text x="44" y="593" font-size="16" fill="#94a3b8">in    <tspan fill="#00f5d4">/in/nikhil-rao</tspan><tspan x="560">x</tspan>   <tspan fill="#00f5d4">@AlphaQ12345</tspan></text>
+    <text x="44" y="633" font-size="17.5" fill="#7c3aed">❯</text><rect class="caret" x="66" y="618" width="11" height="19" fill="#00f5d4"/>
+    <!-- scanline overlay -->
+    <rect class="scan" x="8" y="8" width="1184" height="668" fill="url(#scan)"/>
+  </g>
+  <rect x="8" y="8" width="1184" height="668" rx="12" fill="none" stroke="#00f5d4" stroke-opacity="0.28"/>
+</svg>
